@@ -1,0 +1,11 @@
+Docker/Docker-Compose Install Command
+
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+sudo apt-get install python3-pip -y
+sudo pip3 install docker-compose
+
+<-------------------------------------------------------------->
+
+Net Data Install
+curl https://my-netdata.io/kickstart.sh > /tmp/netdata-kickstart.sh && sh /tmp/netdata-kickstart.sh
