@@ -1,10 +1,10 @@
 ---------------------------------------------------------------------------------------------------------------------------
-# Docker Compose
-1) Postgres
-2) Portainer
-3) INfluxDB
-4) Grafana
-5) Redis/Redis Insight 
+# Docker Compose Setup Guide
+This guide will help you set up multiple services using Docker Compose. Follow these steps to host the services 
+
+#### Step 1: Create docker-compose.yml File
+#### Step 2: Paste the following code into docker-compose.yml:
+
 
 ```
 version: "3.8"
@@ -124,3 +124,13 @@ services:
     depends_on:
       - redis_db
 ```
+#### Step 3: Deploy Services
+```
+sudo docker-compose up -d
+```
+
+#### Step 4: Verify Containers
+```
+sudo docker ps
+```
+
